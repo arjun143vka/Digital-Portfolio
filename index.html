@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+</head>
+<body>
+    <nav id="home">
+        <div class="nav-container"> 
+            <div class="name">Portfo<span>lio</span></div>
+                <ul class="nav-link">
+                    <li><a href="#home">Ho<span>me</span></a></li>
+                    <li><a href="#about">Abo<span>ut</span></a></li>
+                    <li><a href="#skills">skil<span>ls</span></a></li>
+                    <li><a href="#projects">Proje<span>cts</span></a></li>
+                    <li><a href="#contact">Conta<span>ct</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div  class="content" data-aos="zoom-in">
+            <h1 data-aos="fade-down">Hello, I'm Arj<span class="cursor">un</span><br>I'm a <span id="typing-text"> </span></h1>
+            <h2 data-aos="slide-right">Welcome to my corner of the web, where Backend development<br> and debugging are at the heart of everthing i do. I specialize <br> in building robust, efficient systems and solving complex<br>  issues to ensure smooth performance .</h2>
+            <img src="./arjun.jpg" data-aos="zoom-in" alt="my profile picture" class="my-image" >
+            <div class="logo">
+                <a href="https://github.com/arjun143vka"><img src="https://cdn.simpleicons.org/github/1E90FF" alt="GitHub Icon" style="width:24px;height:24px;"></a>
+                <a href=""><i class="fab fa-linkedin" style="color:#0A66C2; font-size:24px;"></i></a>
+                <a href="https://www.instagram.com/heartless_arju?igsh=aGM5MGJuM2tjNjJs"><img src="https://cdn.simpleicons.org/instagram/1E90FF" alt="Instagram Icon" style="width:24px;height:24px;" data-aos="fade-up"></a>
+                <a href="https://www.facebook.com/profile.php?id=100052423410551"><img src="https://cdn.simpleicons.org/facebook/1E90FF" alt="Facebook Icon" style="width:24px;height:24px;" data-aos="fade-up"></a>
+            </div>
+            <a href="./arjun_cv.pdf" class="cv-button" data-aos="zoom-in">Download CV</a>
+        </div>
+    </nav>
+    <nav id="about" data-aos="zoom-in">
+        <h1>Abo<span>ut</span> M<span>e</span></h1>
+        <h3>I'm a backend developer specializing in Django. I enjoy building scalable, secure, and efficient web applications. With experience in REST APIs, databases, and cloud deployment, I focus on creating reliable backend systems that power great user experiences. I'm always learning and improving my skills to deliver clean and maintainable code.</h3> </nav>
+    <div data-aos="slide-right"class="skill-name">Skil<span>ls</span></div>
+    <div  id="skills">
+        <div  data-aos="fade-right"class="python">
+            <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python">
+            <h3>Python</h3>
+        </div>
+            
+        <div  data-aos="fade-up" class="c">
+            <img src="https://cdn.simpleicons.org/c/00599C" alt="C">
+            <h3>C</h3>
+        </div>
+        <div  data-aos="fade-up" class="sql">
+            <img src="https://cdn.simpleicons.org/mysql/4479A1" alt="SQL">
+        </div>
+        <div data-aos="fade-up" class="java">
+             <i class="devicon-java-plain colored" style="font-size:70px;"></i>
+        </div>
+        <div   data-aos="fade-right"class="html">
+            <img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML">
+            <h3>HTML</h3>
+        </div>
+        <div  data-aos="fade-up"class="css">
+           <img src="https://cdn.simpleicons.org/css/1572B6" alt="CSS Icon" style="width:60px;height:65px;">
+            <h3>CSS</h3>
+        </div>
+        <div data-aos="fade-left" class="js">
+            <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript">
+            <h3>Java Script</h3>
+        </div>
+        <div data-aos="fade-left" class="django">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/django.svg" alt="Django Icon" width="24" height="24">
+        </div>
+    </div>
+    <div  data-aos="zoom-out"id="pname">proje<span>cts</span></h1>
+    <div id="projects">
+        <div  data-aos="fade-down"class="resturant">
+            <h2>Food Restaurant</h2>
+            <p>Un°Arj serves tasty food made with fresh<br> ingredients. Enjoys a cozy place for meals<br> and special moments.Come for good food,<br> cool drinks and friendly service!</p>
+        </div>
+        <div data-aos="fade-down" class="todolist">
+            <h2>TO-DO List</h2>
+            <p> A simple web-based To-Do List application <br>built with Django.Users can add, view, and<br> delete tasks in a clean, responsive <br>interface.</p> 
+        </div>
+        <div data-aos="fade-down" class="std">
+            <h2>Student management</h2>
+            <p> A Django-based Student Management System to<br> handle student records efficiently.<br>Allows adding, updating, viewing, and <br>deleting student information.</p>
+        </div>
+    </div>
+    <div id="contact">
+        <h3  data-aos="fade-left">Conta<span>ct</span></h3>
+        <form id="contactForm">
+            <input  data-aos="fade-left"type="text" id="name" placeholder="Name"  required="on">
+            <input  data-aos="fade-right"type="email" id="email" placeholder="Email" required="on">
+            <textarea   data-aos="fade-left"placeholder="Messages.." id="msg" required="on"></textarea>
+            <button  data-aos="fade-right"type="submit" onclick="send()">Send Message</button>
+        </form>
+    </div>
+    <footer  data-aos="slide-up">
+        <p>&copy; 2025 Arjun - All Rights Reserved.</p>
+        <div id="footer-link">
+            <a href="">@ oparjunvka@gmail.com</a>
+            <a href="">&phone; 91+ 9342528997</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        const textToType = ["Backend Developer","Debugger"];
+        let textIndex = 0;
+        let charIndex = 0;
+        let typingText = document.getElementById("typing-text");
+        function typeEffect() {
+            if (charIndex < textToType[textIndex].length) {
+                typingText.textContent += textToType[textIndex][charIndex];
+                charIndex++;
+                setTimeout(typeEffect, 100);
+            } else {
+                setTimeout(eraseEffect, 1000);
+            }
+        }
+        function eraseEffect() {
+            if (charIndex > 0) {
+                typingText.textContent = textToType[textIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(eraseEffect, 50);
+            } else {
+                textIndex = (textIndex + 1) % textToType.length;
+                setTimeout(typeEffect, 500);
+            }
+        }
+        window.onload = typeEffect;
+        function send(){
+            const name=document.getElementById('name').value.trim();
+            const email=document.getElementById('email').value.trim();
+            const msg=document.getElementById('msg').value.trim();
+            if (name && email && msg){
+                alert("Message Sent! Thank You.")
+                document.getElementById('contactForm').reset();
+            }
+            
+        }
+    </script>
+</body>
